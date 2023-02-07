@@ -1,0 +1,190 @@
+bug_1:
+OpenCV Error: Insufficient memory (Failed to allocate 2466588 bytes) in cv::OutOfMemoryError, file C:\Jenkins\workspace\opencv-win32\src\modules\core\src\alloc.cpp, line 52
+
+未经处理的异常:  Affdex.AffdexException: 外部组件发生异常。 ---> System.Runtime.InteropServices.SEHException: 外部组件发生异常。
+   在 affdex.Frame.getBGRByteArray(Frame* , shared_ptr<unsigned char>* )
+   在 Affdex.Frame.getBGRByteArray()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Affdex.Frame.getBGRByteArray()
+   在 csharp_sample_app.ProcessVideo.frame2Bitmap(Frame frame) 位置 C:\Users\NewtScamander\Desktop\E_20180915\ProcessVideo.cs:行号 1477
+   在 csharp_sample_app.ProcessVideo.onImageCapture(Frame frame) 位置 C:\Users\NewtScamander\Desktop\E_20180915\ProcessVideo.cs:行号 79
+   在 Affdex.cImageListener.onCapture(Frame* image)
+   在 Affdex.ImageListenerImpl.onImageCapture(ImageListenerImpl* , Frame* image)
+请按任意键继续. . .
+
+bug_2:
+************** 异常文本 **************
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。
+   在 System.String.ConcatArray(String[] values, Int32 totalLength)
+   在 System.String.Concat(Object[] args)
+   在 csharp_sample_app.ProcessVideo.save_record_txt() 位置 C:\Users\NewtScamander\Desktop\E_20180915\ProcessVideo.cs:行号 1959
+   在 csharp_sample_app.ProcessVideo.Background_worker_DoWork(Object sender, DoWorkEventArgs e) 位置 C:\Users\NewtScamander\Desktop\E_20180915\ProcessVideo.cs:行号 778
+   在 System.ComponentModel.BackgroundWorker.OnDoWork(DoWorkEventArgs e)
+   在 System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)
+
+
+************** 已加载的程序集 **************
+mscorlib
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3163.0 built by: NET472REL1LAST_C
+    基本代码:file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
+----------------------------------------
+csharp-sample-app
+    程序集版本:3.1.1.0
+    Win32 版本:3.1.1.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/csharp-sample-app.exe
+----------------------------------------
+Oraycn.MFile
+    程序集版本:2.3.0.0
+    Win32 版本:2.3.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MFile.DLL
+----------------------------------------
+System
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3151.0 built by: NET472REL1LAST_B
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+Oraycn.MCapture
+    程序集版本:2.4.0.0
+    Win32 版本:2.4.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MCapture.DLL
+----------------------------------------
+Oraycn.MPlayer
+    程序集版本:1.6.0.0
+    Win32 版本:1.6.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MPlayer.DLL
+----------------------------------------
+System.Windows.Forms
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+----------------------------------------
+System.Drawing
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+----------------------------------------
+Affdex
+    程序集版本:3.4.0.1308
+    Win32 版本:3.4.0.1308
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Affdex.DLL
+----------------------------------------
+ESBasic
+    程序集版本:2.0.0.0
+    Win32 版本:2.0.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/ESBasic.DLL
+----------------------------------------
+System.Configuration
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+----------------------------------------
+System.Core
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3160.0 built by: NET472REL1LAST_C
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+----------------------------------------
+System.Xml
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+CSkin
+    程序集版本:16.1.14.2
+    Win32 版本:16.1.14.2
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/CSkin.DLL
+----------------------------------------
+mscorlib.resources
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/mscorlib.resources.dll
+----------------------------------------
+f246c2ec-7819-47cd-b438-83e6effa43e0
+    程序集版本:1.0.0.0
+    Win32 版本:2.3.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MFile.dll
+----------------------------------------
+1cdd9d3d-a8f5-4701-9b8c-49f56a92760a
+    程序集版本:1.0.0.0
+    Win32 版本:2.4.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MCapture.dll
+----------------------------------------
+3907b489-0208-402c-bf87-3d412476ee9c
+    程序集版本:1.0.0.0
+    Win32 版本:1.6.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Oraycn.MPlayer.dll
+----------------------------------------
+Emgu.CV.World
+    程序集版本:3.1.0.2282
+    Win32 版本:3.1.0.2282
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Emgu.CV.World.DLL
+----------------------------------------
+System.Windows.Forms.DataVisualization
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.DataVisualization/v4.0_4.0.0.0__31bf3856ad364e35/System.Windows.Forms.DataVisualization.dll
+----------------------------------------
+Emgu.CV.UI
+    程序集版本:3.1.0.2282
+    Win32 版本:3.1.0.2282
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/Emgu.CV.UI.DLL
+----------------------------------------
+System.Windows.Forms.DataVisualization.resources
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.DataVisualization.resources/v4.0_4.0.0.0_zh-Hans_31bf3856ad364e35/System.Windows.Forms.DataVisualization.resources.dll
+----------------------------------------
+OMCS
+    程序集版本:4.7.0.0
+    Win32 版本:4.7.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/OMCS.DLL
+----------------------------------------
+System.Data
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3160.0 built by: NET472REL1LAST_C
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+----------------------------------------
+System.Numerics
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+----------------------------------------
+MathNet.Numerics
+    程序集版本:4.5.1.0
+    Win32 版本:4.5.1.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/MathNet.Numerics.DLL
+----------------------------------------
+System.resources
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.resources.dll
+----------------------------------------
+256ac03b-357a-49e2-9ca5-567104a3bd16
+    程序集版本:1.0.0.0
+    Win32 版本:4.7.0.0
+    基本代码:file:///C:/Users/NewtScamander/Desktop/E_20180915/bin/x86/Release/OMCS.dll
+----------------------------------------
+System.Windows.Forms.resources
+    程序集版本:4.0.0.0
+    Win32 版本:4.7.3056.0 built by: NET472REL1
+    基本代码:file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.Windows.Forms.resources.dll
+----------------------------------------
+
+************** JIT 调试 **************
+要启用实时(JIT)调试，
+该应用程序或计算机的 .config 文件(machine.config)的 system.windows.forms 节中必须设置
+jitDebugging 值。
+编译应用程序时还必须启用
+调试。
+
+例如:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+启用 JIT 调试后，任何未经处理的异常
+都将被发送到在此计算机上注册的 JIT 调试程序，
+而不是由此对话框处理。
+
+
